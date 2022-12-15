@@ -1,0 +1,149 @@
+:root{
+    --green: rgb(80, 255, 168);
+    --grey: rgb(188, 202, 201);
+    --bg-color: rgb(24, 70, 83);
+}
+*{
+    color: rgb(201, 201, 201);
+}
+.green{
+    color: rgb(80, 255, 168) !important
+}
+.nav-link:hover{
+    color: rgb(6, 241, 163) !important;
+}
+.container-app{
+    max-width: 100vw;
+ 
+}
+::-webkit-scrollbar {
+    display: none;
+    }
+.container-components{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:  0 auto;
+     width: 80%;
+}
+
+.logo{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+}
+
+.logo h2:hover{
+
+        color: var(--green) !important;
+}
+
+.redes{
+    position: fixed;
+    height: 270px;
+    font-size: 1.2rem;
+    bottom: 0;
+    left: 0;
+   margin-left: 3%;
+
+}
+.red i{
+    color: var(--green);
+}
+.redes-c{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: space-between;
+
+}
+
+.correo{
+    display: flex;
+   position: fixed;
+   bottom: 0;
+    writing-mode: vertical-lr;
+    height: 270px;
+    right: 0;
+
+    margin-right:2% ;
+}   
+.correo a{
+    text-decoration: none
+}
+   
+
+
+.line::before{
+ content: "";
+ position: absolute;
+ display: block;
+ width:1px;
+ height: 30%;
+ background-color: rgb(6, 241, 163) ;
+bottom: 0;
+left: .5em;
+
+
+
+} 
+
+/*title*/
+.title{
+    display: inline-block;
+    position: relative;
+    color:  rgb(80, 255, 168) !important
+}
+
+.line-title::before{
+        content: "";
+        display: block;
+        position: absolute;
+        background-color: rgb(6, 241, 163) ;
+        width:110%;
+        height: 1px;
+        right: -120%;
+        top: .6em;
+     
+       
+}
+
+.navbar-brand{
+    color: var(--grey) !important;
+}
+.nav-link{
+    color: var(--grey) !important;
+}
+.nav-link:hover{
+    color: var(--green) !important;
+}
+
+@media (min-width: 768px) {
+    .navbar-collapse{
+        justify-content: end;
+    }
+    .nav-menu{
+        display: flex;
+        justify-content: space-between;
+      width: 60%;
+       justify-self: end;
+       font-size: 1.2rem;
+       padding-right:10% ;
+       padding-left: 10% ; 
+          }
+}
+
+@media (max-width: 576px) {
+    .redes, .correo{
+        visibility: hidden;
+    }
+
+    .list-redes{
+        visibility: visible;
+    }
+}
+@media (max-width:992px) {
+    .nav-menu{
+        width: 50%;
+    }
+}

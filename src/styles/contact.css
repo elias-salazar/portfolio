@@ -1,0 +1,37 @@
+.contact{
+    width: 100%;
+ 
+}
+
+.content-btn-form{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.btn-form{
+   width: 30%;
+   height: 2.5rem;
+  background: rgb(130, 157, 165);
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  
+}
+.btn-form:hover{
+    background-color: var(--green);
+    color: black;
+    font-weight: 600;
+  
+}
+.content-form{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+   
+  
+}
+.content-form form{
+    width: 100%;
+    max-width: 600px;
+}
