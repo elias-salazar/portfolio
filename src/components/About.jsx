@@ -14,7 +14,7 @@ const About = () => {
               programador Web Full Stack. Lleve a cavo mi formacion en Academlo
               y cada dia trabajo para mejorar mis habilidades buscando nuevos
               retos y proyectos que exijan mas de mi. Lenguajes y dev tools
-              html, css, javaScrypt ,reactjs nodejs
+              html, css, javaScrypt ,reactjs, nodejs postgresSQL, boostrap.
             </p>
           </div>
         </Col>
@@ -22,9 +22,13 @@ const About = () => {
           <div className="content-img">
             <div className="content-border">
               <div className="border-img" title="border1"></div>
-              <div className="border-img2" title="border2"></div>
+              <div className="border-img2" title="elias"></div>
             </div>
-            <img src="https://i.ibb.co/sJ3jPHj/HOY.jpg" alt="HOY" border="0" />
+            <img
+              src="https://i.ibb.co/sJ3jPHj/HOY.jpg"
+              alt="elias salazar"
+              border="0"
+            />
           </div>
         </Col>
       </Row>

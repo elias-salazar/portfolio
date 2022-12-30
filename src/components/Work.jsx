@@ -4,7 +4,7 @@ import "../styles/work.css";
 const Work = () => {
   return (
     <div id="work" className="content-work">
-      <h1 className="title line-title">Portafolio</h1>
+      <h1 className="title line-title">Proyects</h1>
       <div className="content-works">
         <Row className=" mt-5 mb-4  row-img-work">
           <Col className="col-data-work">
@@ -15,8 +15,8 @@ const Work = () => {
               <div className="content-data-work">
                 <div className="title-work">Ecomerce</div>
                 <div className="text-work">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Aplicacion para una tienda de venta online. React js,
+                  javascrypt, boostrap, css puro.
                 </div>
               </div>
               <img
@@ -33,8 +33,9 @@ const Work = () => {
               <div className="content-data-work">
                 <div className="title-work">Pokedex</div>
                 <div className="text-work">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Aplicacion para consulta de pokemones, con filtros por tipo,
+                  nombre y id a traves del consumo de apis. React js,
+                  javascrypt, boostrap, css puro.
                 </div>
               </div>
               <img
@@ -57,8 +58,9 @@ const Work = () => {
               <div className="content-data-work">
                 <div className="title-work">Rick and Morty</div>
                 <div className="text-work">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Aplicacion para consulta de informacion sobre la serie Rick
+                  and morty, con filtros por lacalizacion, nombre y id a traves
+                  del consumo de apis. React js, javascrypt, css puro.
                 </div>
               </div>
               <img
@@ -75,8 +77,8 @@ const Work = () => {
               <div className="content-data-work">
                 <div className="title-work">Crud-users</div>
                 <div className="text-work">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  aplicacion para el manejo de usuarios. React js, javascrypt,
+                  css puro.
                 </div>
               </div>
               <img

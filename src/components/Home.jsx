@@ -9,7 +9,7 @@ const Home = () => {
         <h1 className="title-home big-heading">
           <span> Elias Salazar. </span>
           <br />
-          Soy desarrollador web Font-end en react.js.
+          Soy desarrollador web Full Stack.
         </h1>
         <p>
           soy desarrollador web Full Stack . Dispuesto a brindar mis habilidades
