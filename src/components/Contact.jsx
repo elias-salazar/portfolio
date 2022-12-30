@@ -9,7 +9,7 @@ const Contact = () => {
         <Form
           id="contact"
           className="m-5"
-          action="https://formsubmit.co/753c318ab7e7fc50face98e446d76504"
+          action="https://portfolio-elias-salazar.netlify.app/"
           method="POST"
         >
           <Form.Group
