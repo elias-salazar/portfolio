@@ -35,3 +35,8 @@
     width: 100%;
     max-width: 600px;
 }
+@media (max-width: 576px) {
+    .contacttitle{
+        padding-bottom: 30px;
+    }
+}

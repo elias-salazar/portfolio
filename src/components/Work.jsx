@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, Col, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "../styles/work.css";
 const Work = () => {
   return (
@@ -13,7 +14,15 @@ const Work = () => {
           <Col className=" col-img-work">
             <div data-aos="fade-up-left" className="img-work">
               <div className="content-data-work">
-                <div className="title-work">Ecomerce</div>
+                <div className="title-work">
+                  {" "}
+                  <a
+                    href="https://elias-salazar-ecommerce.netlify.app/"
+                    target="_blank"
+                  >
+                    Ecommerce
+                  </a>
+                </div>
                 <div className="text-work">
                   Aplicacion para una tienda de venta online. React js,
                   javascrypt, boostrap, css puro.
@@ -31,7 +40,14 @@ const Work = () => {
           <Col className=" col-img-work">
             <div data-aos="fade-up-right" className="img-work">
               <div className="content-data-work">
-                <div className="title-work">Pokedex</div>
+                <div className="title-work">
+                  <a
+                    href="https://elias-salazar-entregable-05.netlify.app/"
+                    target="_blank"
+                  >
+                    Pokedex
+                  </a>{" "}
+                </div>
                 <div className="text-work">
                   Aplicacion para consulta de pokemones, con filtros por tipo,
                   nombre y id a traves del consumo de apis. React js,
@@ -56,7 +72,14 @@ const Work = () => {
           <Col className=" col-img-work">
             <div data-aos="fade-up-left" className="img-work">
               <div className="content-data-work">
-                <div className="title-work">Rick and Morty</div>
+                <div className="title-work">
+                  <a
+                    href="https://elias-salazar-entregable-03.netlify.app/"
+                    target="_blank"
+                  >
+                    Rick and Morty
+                  </a>{" "}
+                </div>
                 <div className="text-work">
                   Aplicacion para consulta de informacion sobre la serie Rick
                   and morty, con filtros por lacalizacion, nombre y id a traves
@@ -75,7 +98,14 @@ const Work = () => {
           <Col className=" col-img-work">
             <div data-aos="fade-up-right" className="img-work">
               <div className="content-data-work">
-                <div className="title-work">Crud-users</div>
+                <div className="title-work">
+                  <a
+                    href="https://elias-salazar-entregable-04.netlify.app/"
+                    target="_blank"
+                  >
+                    Crud-users
+                  </a>{" "}
+                </div>
                 <div className="text-work">
                   aplicacion para el manejo de usuarios. React js, javascrypt,
                   css puro.
