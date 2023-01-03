@@ -10,7 +10,7 @@ const About = () => {
         <Col className="col-data-about pt-5">
           <div className="data-description">
             <p>
-              Hola! mi nombre es Elias Salazar, vivio en Argentina y soy
+              Hola! mi nombre es Elias Salazar, vivo en Argentina y soy
               programador Web Full Stack. Lleve a cavo mi formacion en Academlo
               y cada dia trabajo para mejorar mis habilidades buscando nuevos
               retos y proyectos que exijan mas de mi. Lenguajes y dev tools
