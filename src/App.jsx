@@ -40,7 +40,7 @@ function App() {
             <Button variant="dark" className="btn nav-link">
               <a
                 className="green"
-                href="https://drive.google.com/file/d/1P0a7z78639YnAdwu-vZFNo7v4-Se1XVe/view?usp=sharing"
+                href="https://drive.google.com/file/d/1crrp5PyGmmLDszKGYXJK-4I_MzAaWDX_/view?usp=sharing"
                 target="blank_"
                 download="CV-Elias-Salazar.pdf"
               >
